@@ -41,9 +41,11 @@ nav.menu-mobile{
 	background-image: url('../imagens/menu-mobile.png');
 	background-size:100% 100%;
 	display: none;
+	z-index: 3;
 }
 
 nav.menu-mobile ul{
+	box-shadow: 2px 3px 7px 4px rgba(0,0,0,0.1);
 	opacity: 0;
 	transition: 0.5s ease-in-out;
 	z-index: 999;
@@ -51,8 +53,9 @@ nav.menu-mobile ul{
 	width: 100%;
 	position: absolute;
 	left: 0;
-	top: 60px;
+	top: 85px;
 	background-color: white;
+	z-index: 2;
 }
 
 nav.menu-mobile ul li{
@@ -122,6 +125,7 @@ section.servicos > .container .box-servico{
 	background-size: 18px 18px;
 	background-position: center calc(100% - 10px);
 	background-repeat: no-repeat;
+	box-shadow: 2px 3px 5px 2px rgba(0,0,0,0.2);
 }
 
 section.servicos > .container .box-servico h2{
@@ -205,7 +209,7 @@ section.perfil-container .texto-perfil p{
 }
 
 section.videos{
-	padding:50px 0;
+	padding-top: 20px;
 }
 
 section.videos .box-video{
@@ -226,7 +230,7 @@ section.videos iframe{
 }
 
 section.tratamentos{
-	padding:70px 0;
+	padding:30px 0;
 }
 
 section.tratamentos .tratamento-container{
@@ -241,7 +245,7 @@ section.tratamentos > h2{
 }
 
 section.tratamentos > .container{
-	padding:80px 0;
+	padding:30px 0;
 }
 
 .tratamento-single{
@@ -262,11 +266,13 @@ section.tratamentos > .container{
 section.depoimentos > h2{
 	color: #698293;
 	text-align: center;
-	font-size: 18px;
+	font-size: 22px;
+	position: relative;
+	top: -10px;
 }
 
 section.depoimentos > .container{
-	padding:40px 0;
+	padding:10px 0;
 	max-width: 400px;
 }
 
@@ -351,7 +357,7 @@ section.contato{
 section.contato > h2{
 	color: #698293;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 section.contato form{
