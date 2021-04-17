@@ -450,6 +450,11 @@ footer .footer-block{
 
 
 @media screen and (max-width: 768px){
+	
+section.tratamentos .tratamento-container{
+	float: left;
+	width: 33.3%;
+}
 
 	footer{
 		text-align: center;
@@ -470,14 +475,7 @@ footer .footer-block{
 	}
 
 	section.servicos > .container{
-		/*
-		max-width: 800px;
-		display: flex;
-		align-items: center; 
-		position: relative;
-		top:-30px;
-		text-align: center;
-		*/
+		
 		flex-direction: column;
 	}
 
@@ -574,8 +572,6 @@ footer .footer-block{
 
 	section.videos .box-video{
 		width: 100%;
-		/*border:5px solid white;*/
-		/*background-color: green;*/
 		padding-top:calc(100% * 0.6);
 	}
 
