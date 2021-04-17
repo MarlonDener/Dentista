@@ -2,6 +2,6 @@
 
 Link : https://marlondener.github.io/dentista/
 
-![image](https://user-images.githubusercontent.com/70349830/115104250-7e862f80-9f2d-11eb-8a77-01fee8174373.png)
+![image](https://user-images.githubusercontent.com/70349830/115116564-756a8200-9f70-11eb-91d1-4d07882972ac.png)
 
                                                                 Muito obrigado !
